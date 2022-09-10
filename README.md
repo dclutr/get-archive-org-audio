@@ -2,8 +2,15 @@
 This script creates html pages which can play music from archive.org.
 It expects from user the archive.org album's detail page url or downloads page url and the preferred audio format from the user
 
-# Dependencies
+## Dependencies
 - curl
+
+## Running the script
+Once configured, running the script requires two arguments, a url and an audio format. For example
+```bash
+hm https://archive.org/details/sonic-r-ost flac
+```
+This will create an html file as shown in `example html.png`
 
 ## Configuring via .bashrc
 One can create a short alias in the .bashrc to run the script. 
@@ -19,9 +26,3 @@ fi
 alias hm="cd $Music && bash ./get-archive-org-audio.sh"
 ```
 
-## Running the script
-The script has two mandatory arguments, a url and an audio format. For example
-```bash
-hm https://archive.org/details/sonic-r-ost flac
-```
-This will create an html file as shown in `example html.png`
