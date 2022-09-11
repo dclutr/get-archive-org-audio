@@ -8,21 +8,7 @@ It expects from user the archive.org album's detail page url or downloads page u
 ## Running the script
 Once configured, running the script requires two arguments, a url and an audio format. For example
 ```bash
+alias hm="bash ~/get-archive-org-audio.sh`
 hm https://archive.org/details/sonic-r-ost flac
 ```
-This will create an html file as shown in `example html.png`
-
-## Configuring via .bashrc
-One can create a short alias in the .bashrc to run the script. 
-The script saves html files to current directory, but one might want to choose a fixed directory to save html files to. 
-The alias can be used to change directory as well in addition to running the script. 
-For example
-```bash
-# .bashrc for Termux on Android 
-Music="/storage/emulated/0/Download/Music"
-if [ ! -d "$Music" ]
-then mkdir "$Music"
-fi
-alias hm="cd $Music && bash ./get-archive-org-audio.sh"
-```
-
+This will create an html file, in the current directory, as shown in `example html.png`
