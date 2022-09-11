@@ -7,7 +7,7 @@ This script creates html pages with music embedded from archive.org.
 ## Running the script
 Running the script requires two arguments, a url and an audio format. For example
 ```bash
-alias hm="bash ~/get-archive-org-audio.sh`
+alias hm="bash ~/get-archive-org-audio.sh"
 hm https://archive.org/details/sonic-r-ost flac
 # or 
 # hm https://archive.org/download/sonic-r-ost flac
