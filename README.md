@@ -12,4 +12,4 @@ hm https://archive.org/details/sonic-r-ost flac
 # or 
 # hm https://archive.org/download/sonic-r-ost flac
 ```
-This will create an html file, in the current directory, as shown in `example html.png`
+This will create a html file, in the current directory, as shown in `example html.png`
